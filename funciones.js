@@ -24,3 +24,21 @@ let emailRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0
 
 
 var miArreglo = new Array(length);
+//Object
+const car = {
+  make: 'Honda',
+  model: 'Civic',
+  year: 2020,
+};
+
+//Properties
+car.make // Honda
+car.model // Civic
+car.year // 2020
+
+//Methods
+car.start = function() {
+  console.log('Vroom!');
+};
+
+car.start(); // Vroom!
