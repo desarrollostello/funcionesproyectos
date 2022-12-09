@@ -18,3 +18,9 @@ map.set('edad', 25);
 map.set('pais', 'España');
 
 console.log(map); // Map { 'nombre' => 'Juan', 'edad' => 25, 'pais' => 'España' }
+
+//1. Para validar una dirección de correo electrónico:
+let emailRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])
+
+
+var miArreglo = new Array(length);
